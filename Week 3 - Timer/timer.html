@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zamanlayıcı</title>
+</head>
+<body>
+     <nav class="nav">
+        <a href="main.html" class="links">Alarm</a>
+        <a href="timer.html" class="linksactive">Zamanlayıcı</a>
+        <a href="kronometre.html" class="links">Kronometre</a>
+    </nav>
+    <div class="bodyy">
+    <input type="number" class="inputss" id="hour" placeholder="Saati giriniz:"/>
+    <input type="number" class="inputss" id="minute" placeholder="Dakikayı giriniz:"/>
+    <input type="number" class="inputss" id="second" placeholder="Saniyeyi giriniz:"/>
+    <div style="display: flex;">
+        <button class="btnn" id="startbtn" onclick="saniye_hesaplama()" style="margin-left: 35%;">Süreyi başlat</button>
+        <button class="btnn" id="startbtn" onclick="sifirla()" style="margin-right: 35%;">Sıfırla</button>
+    </div>
+    <p class="kalansureyazi" id = "remaining-time">0</p>
+    <p style="color: blueviolet; display: inline-block;" id="gizli">0</p>
+    </div>
+    <script src = "timer.js"></script>
+</body>
+</html>

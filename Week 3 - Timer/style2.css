@@ -1,0 +1,37 @@
+.timerr{
+    padding-left: 40%;
+    padding-right: 40%;
+    
+}
+.timerr p{
+    font-size: x-large;
+    color: white;
+}
+.btnn{
+    cursor: pointer;
+    display: inline-block;
+    border: solid 1px; 
+    margin-right: 20px;
+    font-size: x-large;
+    width: 150px;
+}
+.inputss{
+    margin: 10px 15%;
+    font-size: xx-large;
+    width: 300px;
+}
+.kalansureyazi{
+    margin: auto;
+    font-size: xx-large;
+    color: white;
+}
+.bodyy
+{
+        width: 700px;
+        margin-left: 30%;
+        padding: 30px 30px 38px;
+        background-color: blueviolet;
+        border-radius: 10px;
+        flex-direction: column;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+}
