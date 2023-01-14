@@ -1,0 +1,42 @@
+.ite{
+    margin-left: 20%;
+    padding: 15px;
+}
+.yaziss{
+    display: inline-block;
+    color: #fff;
+}
+.sag h1,.sag h3,.sag h4
+{
+    color: gray;
+    padding: 20px 30px;
+}
+.kutu{
+    background-color: white;
+    margin: 40px 100px;
+    column-gap: 170px;
+    display: flex;
+    color: white;
+}
+.kutuic{
+    background-color: black;
+    height: 100px;
+    width: 70px;
+    padding: 30px 50px;
+    border-radius: 20px;
+}
+.kutuictext{
+    display: inline-block;
+    padding: 10px 0;
+}
+.cizgi{
+    margin: 0 10%;
+    border: solid #dedede;
+    display: flex;
+    justify-content: space-between;
+}
+.solyazi{
+    color: #000000;
+    padding: 7px 20px;
+    font-size: larger;
+}

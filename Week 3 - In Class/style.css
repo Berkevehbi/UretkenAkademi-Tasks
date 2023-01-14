@@ -1,0 +1,54 @@
+@import "style2.css";
+@import "style3.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.bod{
+    display: flex;
+}
+.sol{
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2f80ed;
+    width: 30%;
+}
+a{
+    color: white !important;
+}
+.sag {
+    display: inline-block;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    width: 70%;
+}
+.items{
+    margin: 50px 100px;
+    font-size: x-large;
+    color: #ffffff;
+}
+.btns1{
+    background-color: black;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 22%;
+    margin-right: 15%;
+    padding: 0 55px;
+    font-size: x-large;
+    border-radius: 30px;
+}
+.yazis{
+    font-size: xx-large;
+    padding: 0 4%;
+}
