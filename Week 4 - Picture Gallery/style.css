@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.baslik
+{
+    padding: 0 40%;
+}
+#body
+{
+    margin: 0 18%;
+}
+#body .img, .links{
+    margin-left: 3px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    cursor: pointer;
+}
+
