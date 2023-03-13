@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #373737;
+  color: #fff;
+  
+}
+
+.app {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+  display: flex;
+}
+
+.text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-color:rgba(111, 91, 91, 0.538);
+  color: #e2e2e2;
+}
+
+.input::placeholder {
+  color: #e2e2e2;
+}
+
+.counttext {
+  margin: 10px;
+}
